@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Login = ({ onLogin }) => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState('usuario');
+  const [password, setPassword] = useState('1234');
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {

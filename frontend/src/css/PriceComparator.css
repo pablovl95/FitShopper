@@ -1,0 +1,142 @@
+/* PriceComparator.css */
+.price-comparator {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.category-item, .subcategory-item, .third-category-item {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.category-item:hover, .subcategory-item:hover, .third-category-item:hover {
+  background-color: #e6e6e6;
+  transform: translateX(5px);
+}
+
+.subcategories, .third-categories {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Products Styles */
+.products {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.products h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.product-item:hover {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-item p {
+  margin: 5px 0;
+}
+
+.product-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product-item a:hover {
+  text-decoration: underline;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegúrate de que el modal esté por encima de otros elementos */
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+  margin: 0 0 10px;
+}
+
+.modal-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modal-content th,
+.modal-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.modal-content th {
+  background-color: #f2f2f2;
+}
+
+.modal-content button {
+  margin-top: 10px;
+}
