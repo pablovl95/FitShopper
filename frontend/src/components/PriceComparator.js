@@ -9,8 +9,11 @@ const PriceComparator = () => {
   const [subCategories, setSubCategories] = useState([]);
   const [categorySelectetdName, setCategorySelectetdName] = useState(null);
   const [selectedProductInfo, setSelectedProductInfo] = useState(null);
-
-  const API_URL = "http://localhost:5000/api/categories";
+  const backendUrl = process.env.NODE_ENV === 'development'
+    ? 'http://localhost:5000'
+    : process.env.REACT_APP_BACKEND_URL;
+  
+    const API_URL = backendUrl + "/api/v1/categories";
 
   useEffect(() => {
     const fetchCategories = async () => {
@@ -79,7 +82,7 @@ const PriceComparator = () => {
   const fetchProductsByCategories = async (CategoryID) => {
     setLoadingsubCategories(true);
     try {
-      const response = await fetch(`http://localhost:5000/api/categories/${CategoryID}`);
+      const response = await fetch(backendUrl+`/api/v1/categories/${CategoryID}`);
       const data = await response.json();
       setCategorySelectetdName(data.name);
       setSubCategories(data.categories || []);
@@ -100,7 +103,7 @@ const PriceComparator = () => {
 
   const handleProductClick = async (productId) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/nutritional-info/${productId}`);
+      const response = await fetch(backendUrl+`/api/v1/nutritional-info/${productId}`);
       const data = await response.json();
       setSelectedProductInfo(data);
     } catch (error) {
