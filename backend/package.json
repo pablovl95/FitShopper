@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongoose": "^8.7.3",
+    "nedb": "^1.8.0",
     "node-fetch": "^3.3.2",
     "nodemon": "^3.1.7"
   }

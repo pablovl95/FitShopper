@@ -4,7 +4,8 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Profile from './components/Profile';
 import Menu from './components/Menu';
-import PriceComparator from './components/PriceComparator';
+import Routiner from './components/Routiner';
+import Categories from './components/Categories';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -26,7 +27,8 @@ function App() {
           <>
             <Route path="/home" element={<Home />} />
             <Route path="/profile" element={<Profile />} />
-            <Route path="/pricecomparator" element={<PriceComparator />} />
+            <Route path="/routiner" element={<Routiner />} />
+            <Route path="/categories" element={<Categories />} />
             <Route path="*" element={<Navigate to="/home" />} />
           </>
         ) : (

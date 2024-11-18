@@ -1,0 +1,51 @@
+.Routiner {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .muscle-selector {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme entre las imágenes */
+    margin-bottom: 20px;
+  }
+  
+  .muscle-selector div {
+    text-align: center; /* Centrar el texto debajo de las imágenes */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre la imagen */
+  }
+  
+  .muscle-selector img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    transition: transform 0.2s; /* Animación suave al hacer hover */
+  }
+  
+  .muscle-selector img:hover {
+    transform: scale(1.1); /* Aumentar el tamaño de la imagen al hacer hover */
+  }
+  
+  .exercise-search, .workout-creator, .workout-list {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados para las secciones */
+    background-color: #f9f9f9; /* Color de fondo claro */
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Color de fondo del botón al hacer hover */
+  }
+  

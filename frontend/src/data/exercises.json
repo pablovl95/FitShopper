@@ -1,0 +1,241 @@
+[
+    {
+      "id": 1,
+      "nombre": "Press de Banca",
+      "descripcion": "Un ejercicio clásico de tren superior que trabaja el pecho.",
+      "musculos_principales": ["pecho"]
+    },
+    {
+      "id": 2,
+      "nombre": "Peso Muerto",
+      "descripcion": "Un ejercicio compuesto que trabaja todo el cuerpo, principalmente la espalda baja y piernas.",
+      "musculos_principales": ["espalda", "glúteos", "femoral"]
+    },
+    {
+      "id": 3,
+      "nombre": "Sentadilla",
+      "descripcion": "Un ejercicio fundamental para fortalecer las piernas y glúteos.",
+      "musculos_principales": ["glúteos", "femoral", "gemelos"]
+    },
+    {
+      "id": 4,
+      "nombre": "Dominadas",
+      "descripcion": "Un ejercicio de tracción para la espalda y los brazos.",
+      "musculos_principales": ["espalda", "bíceps"]
+    },
+    {
+      "id": 5,
+      "nombre": "Press Militar",
+      "descripcion": "Un ejercicio para fortalecer los hombros y el tren superior.",
+      "musculos_principales": ["hombro"]
+    },
+    {
+      "id": 6,
+      "nombre": "Extensión de Tríceps",
+      "descripcion": "Un ejercicio aislado para trabajar los tríceps.",
+      "musculos_principales": ["tríceps"]
+    },
+    {
+      "id": 7,
+      "nombre": "Puente de Glúteos",
+      "descripcion": "Un ejercicio básico para fortalecer los glúteos.",
+      "musculos_principales": ["glúteos"]
+    },
+    {
+      "id": 8,
+      "nombre": "Elevaciones de Talones",
+      "descripcion": "Un ejercicio simple para trabajar los gemelos.",
+      "musculos_principales": ["gemelos"]
+    },
+    {
+      "id": 9,
+      "nombre": "Aperturas de Abductores",
+      "descripcion": "Un ejercicio para fortalecer los abductores.",
+      "musculos_principales": ["abductores"]
+    },
+    {
+      "id": 10,
+      "nombre": "Curl de Bíceps",
+      "descripcion": "Un ejercicio clásico para trabajar los bíceps.",
+      "musculos_principales": ["bíceps"]
+    },
+    {
+        "id": 11,
+        "nombre": "Remo con Barra",
+        "descripcion": "Ejercicio para trabajar la espalda y los bíceps.",
+        "musculos_principales": ["espalda", "bíceps"]
+      },
+      {
+        "id": 12,
+        "nombre": "Fondos en Paralelas",
+        "descripcion": "Ejercicio para trabajar los tríceps y el pecho.",
+        "musculos_principales": ["tríceps", "pecho"]
+      },
+      {
+        "id": 13,
+        "nombre": "Pull-over con Mancuerna",
+        "descripcion": "Ejercicio que trabaja la espalda y el pecho.",
+        "musculos_principales": ["espalda", "pecho"]
+      },
+      {
+        "id": 14,
+        "nombre": "Prensa de Piernas",
+        "descripcion": "Ejercicio de empuje que trabaja los glúteos y los cuádriceps.",
+        "musculos_principales": ["glúteos", "femoral"]
+      },
+      {
+        "id": 15,
+        "nombre": "Curl Femoral en Máquina",
+        "descripcion": "Ejercicio aislado para trabajar los isquiotibiales.",
+        "musculos_principales": ["isquiotibial"]
+      },
+      {
+        "id": 16,
+        "nombre": "Elevaciones Laterales de Hombros",
+        "descripcion": "Ejercicio para trabajar los músculos del hombro.",
+        "musculos_principales": ["hombro"]
+      },
+      {
+        "id": 17,
+        "nombre": "Push-ups",
+        "descripcion": "Ejercicio clásico para trabajar el pecho y los tríceps.",
+        "musculos_principales": ["pecho", "tríceps"]
+      },
+      {
+        "id": 18,
+        "nombre": "Sentadilla Búlgara",
+        "descripcion": "Ejercicio unilateral para trabajar glúteos y piernas.",
+        "musculos_principales": ["glúteos", "femoral"]
+      },
+      {
+        "id": 19,
+        "nombre": "Remo en Máquina",
+        "descripcion": "Ejercicio para fortalecer la espalda y los brazos.",
+        "musculos_principales": ["espalda", "bíceps"]
+      },
+      {
+        "id": 20,
+        "nombre": "Hip Thrust",
+        "descripcion": "Ejercicio para trabajar los glúteos y la cadera.",
+        "musculos_principales": ["glúteos"]
+      },{
+        "id": 21,
+        "nombre": "Lunges",
+        "descripcion": "Ejercicio unilateral para trabajar piernas y glúteos.",
+        "musculos_principales": ["glúteos", "femoral"]
+      },
+      {
+        "id": 22,
+        "nombre": "Barbell Row",
+        "descripcion": "Ejercicio para fortalecer la espalda y los bíceps.",
+        "musculos_principales": ["espalda", "bíceps"]
+      },
+      {
+        "id": 23,
+        "nombre": "Chest Fly",
+        "descripcion": "Ejercicio para trabajar el pecho.",
+        "musculos_principales": ["pecho"]
+      },
+      {
+        "id": 24,
+        "nombre": "Plank",
+        "descripcion": "Ejercicio isométrico que trabaja todo el core.",
+        "musculos_principales": ["abductores"]
+      },
+      {
+        "id": 25,
+        "nombre": "Squat Jumps",
+        "descripcion": "Ejercicio pliométrico para glúteos y piernas.",
+        "musculos_principales": ["glúteos", "femoral"]
+      },
+      {
+        "id": 26,
+        "nombre": "Face Pull",
+        "descripcion": "Ejercicio para trabajar el trapecio y los hombros.",
+        "musculos_principales": ["trapecio", "hombro"]
+      },
+      {
+        "id": 27,
+        "nombre": "Tricep Dips",
+        "descripcion": "Ejercicio de empuje para trabajar los tríceps.",
+        "musculos_principales": ["tríceps"]
+      },
+      {
+        "id": 28,
+        "nombre": "Overhead Squat",
+        "descripcion": "Ejercicio de sentadilla con barra sobre la cabeza.",
+        "musculos_principales": ["glúteos", "hombro"]
+      },
+      {
+        "id": 29,
+        "nombre": "T-Bar Row",
+        "descripcion": "Ejercicio para fortalecer la espalda y los bíceps.",
+        "musculos_principales": ["espalda", "bíceps"]
+      },
+      {
+        "id": 30,
+        "nombre": "Standing Calf Raises",
+        "descripcion": "Ejercicio para trabajar los gemelos.",
+        "musculos_principales": ["gemelos"]
+      },
+      {
+        "id": 31,
+        "nombre": "Incline Dumbbell Press",
+        "descripcion": "Ejercicio para trabajar la parte superior del pecho.",
+        "musculos_principales": ["pecho"]
+      },
+      {
+        "id": 32,
+        "nombre": "Chin-ups",
+        "descripcion": "Ejercicio de tracción para los bíceps y la espalda.",
+        "musculos_principales": ["bíceps", "espalda"]
+      },
+      {
+        "id": 33,
+        "nombre": "Lateral Raises",
+        "descripcion": "Ejercicio para trabajar los hombros.",
+        "musculos_principales": ["hombro"]
+      },
+      {
+        "id": 34,
+        "nombre": "Romanian Deadlift",
+        "descripcion": "Ejercicio para trabajar los isquiotibiales y la espalda baja.",
+        "musculos_principales": ["isquiotibial", "espalda"]
+      },
+      {
+        "id": 35,
+        "nombre": "Shrugs",
+        "descripcion": "Ejercicio para trabajar el trapecio.",
+        "musculos_principales": ["trapecio"]
+      },
+      {
+        "id": 36,
+        "nombre": "Leg Curl",
+        "descripcion": "Ejercicio para trabajar los isquiotibiales.",
+        "musculos_principales": ["isquiotibial"]
+      },
+      {
+        "id": 37,
+        "nombre": "Push Press",
+        "descripcion": "Ejercicio compuesto para hombros y tríceps.",
+        "musculos_principales": ["hombro", "tríceps"]
+      },
+      {
+        "id": 38,
+        "nombre": "Sumo Deadlift",
+        "descripcion": "Variante del peso muerto que trabaja glúteos, femoral y espalda baja.",
+        "musculos_principales": ["glúteos", "femoral", "espalda"]
+      },
+      {
+        "id": 39,
+        "nombre": "Reverse Fly",
+        "descripcion": "Ejercicio para trabajar el trapecio y los hombros.",
+        "musculos_principales": ["trapecio", "hombro"]
+      },
+      {
+        "id": 40,
+        "nombre": "Step-ups",
+        "descripcion": "Ejercicio para trabajar los glúteos y las piernas.",
+        "musculos_principales": ["glúteos", "femoral"]
+      }
+    ]

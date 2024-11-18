@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Cambia el color según tus preferencias */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+  }
+  
+  .nav-links li {
+    display: inline; /* Asegúrate de que los elementos sean inline */
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: auto; /* Para que el buscador esté a la derecha */
+  }
+  
