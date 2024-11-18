@@ -6,7 +6,8 @@ import Profile from './components/Profile';
 import Menu from './components/Menu';
 import Routiner from './components/Routiner';
 import Categories from './components/Categories';
-
+import Calculator from './components/Calculator';
+import Alimentacion from './components/Alimentacion';
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
 
@@ -29,6 +30,8 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/routiner" element={<Routiner />} />
             <Route path="/categories" element={<Categories />} />
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/alimentacion" element={<Alimentacion />} />
             <Route path="*" element={<Navigate to="/home" />} />
           </>
         ) : (

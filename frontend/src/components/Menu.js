@@ -9,8 +9,10 @@ const Menu = ({ onLogout }) => {
         <input type="text" className="search-bar" placeholder="Buscar..." />
         <li><Link to="/home">Inicio</Link></li>
         <li><Link to="/categories">Categorias</Link></li>
+        <li><Link to="/calculator">Calculadora</Link></li>
         <li><Link to="/routiner">Rutina</Link></li>
         <li><Link to="/profile">Perfil</Link></li>
+        <li><Link to="/alimentacion">Alimentacion</Link></li>
 
       </ul>
     </nav>
